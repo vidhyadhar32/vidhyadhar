@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int voc(float a);
-int main()
+void voc();
+void main()
 {
 clrscr();
-voc(3.9);
+voc();
 getch();
 }
-int voc(float a)
+void voc()
 {
- float vol=a*a*a ;
- cout<<"volume is:"<<vol<<endl;
- }
+float r=3.5;
+float vol=r*r*r;
+cout<<"volume is ="<<vol<<endl;
+}
