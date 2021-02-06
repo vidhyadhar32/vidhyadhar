@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int aot(float b,float h);
-int main()
+void aot();
+void main()
 {
 clrscr();
-aot(3.9,4.5);
+aot();
 getch();
 }
-int aot(float b,float h)
+void aot()
 {
- float area=(b*h)/2 ;
- cout<<"area is:"<<area<<endl;
- }
+float b=3.5,h=4.5;
+float area=(b*h)/2;
+cout<<"area is ="<<area<<endl;
+}
