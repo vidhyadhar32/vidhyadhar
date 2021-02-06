@@ -1,22 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-class triangle
+int aot();
+int main()
 {
-public:
-float b,h,area;
-void para()
-{
-b=4.5;
-h=6.5;
-area=0.5*b*h;
-cout<<"area=="<<area;
-}
-};
-void main()
-{
-clrscr();
-triangle obj;
-obj.para();
-getch();
-}
+ clrscr();
+ aot();
+ getch();
+ }
+ int aot()
+ {
+  float b=2.5,h=3.5;
+  float area=(b*h)/2;
+  cout<<"area is:"<<area<<endl;
+  return (area);
+  }
