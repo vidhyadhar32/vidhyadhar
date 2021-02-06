@@ -1,15 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int aoc(float r);
-int main()
+void aoc();
+void main()
 {
 clrscr();
-aoc(3.9);
+aoc();
 getch();
 }
-int aoc(float r)
+void aoc()
 {
- float area=3.14*r*r ;
- cout<<"area is:"<<area<<endl;
- }
+float r=3.5;
+float area=3.14*r*r;
+cout<<"area is ="<<area<<endl;
+}
+
