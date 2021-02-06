@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int poc(float r);
-int main()
+void poc();
+void main()
 {
 clrscr();
-poc(3.9);
+poc();
 getch();
 }
-int poc(float r)
+void poc()
 {
- float per=3.14*2*r ;
- cout<<"perimeter is:"<<per<<endl;
- }
+float r=3.5;
+float per=2*3.14*r;
+cout<<"perimeter is ="<<per<<endl;
+}
