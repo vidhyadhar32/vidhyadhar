@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int aoe(float r1,float r2);
-int main()
+void aoe();
+void main()
 {
 clrscr();
-aoe(3.9,4.3);
+aoe();
 getch();
 }
-int aoe(float r1,float r2)
+void aoe()
 {
- float area=3.14*r1*r2 ;
- cout<<"area is:"<<area<<endl;
- }
+float r1=3.5,r2=4.6;
+float area=3.14*r1*r2;
+cout<<"area is ="<<area<<endl;
+}
