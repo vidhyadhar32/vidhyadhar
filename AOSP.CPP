@@ -1,21 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-class sphere
-{
-public:
-float r,area;
-void para()
-{
-r=6.5;
-area=4*3.14*r*r;
-cout<<"area=="<<area;
-}
-};
-void main()
+int aosp(float r);
+int main()
 {
 clrscr();
-sphere obj;
-obj.para();
+aosp(3.9);
 getch();
 }
+int aosp(float r)
+{
+ float area=4*3.14*r*r ;
+ cout<<"area is:"<<area<<endl;
+ }
