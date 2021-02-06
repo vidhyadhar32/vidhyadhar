@@ -1,22 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-class rectangle
+int aor();
+int main()
 {
-public:
-float b,l,area;
-void para()
-{
-b=4.5;
-l=6.5;
-area=b*l;
-cout<<"area=="<<area;
-}
-};
-void main()
-{
-clrscr();
-rectangle obj;
-obj.para();
-getch();
-}
+ clrscr();
+ aor();
+ getch();
+ }
+ int aor()
+ {
+  float b=2.5,l=3.5;
+  float area=(b*l);
+  cout<<"area is:"<<area<<endl;
+  return (area);
+  }
