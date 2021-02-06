@@ -1,21 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-class square
+int aos();
+int main()
 {
-public:
-float l,area;
-void para()
-{
-l=6.5;
-area=l*l;
-cout<<"area=="<<area;
-}
-};
-void main()
-{
-clrscr();
-square obj;
-obj.para();
-getch();
-}
+ clrscr();
+ aos();
+ getch();
+ }
+ int aos()
+ {
+  float l=2.5;
+  float area=l*l;
+  cout<<"area is:"<<area<<endl;
+  return (area);
+  }
