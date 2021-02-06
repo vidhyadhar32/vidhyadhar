@@ -1,21 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-class circle
+int poc();
+int main()
 {
-public:
-float r,per;
-void para()
-{
-r=6.5;
-per=2*3.14*r;
-cout<<"perimeter=="<<per;
-}
-};
-void main()
-{
-clrscr();
-circle obj;
-obj.para();
-getch();
-}
+ clrscr();
+ poc();
+ getch();
+ }
+ int poc()
+ {
+  float r=2.5;
+  float per=2*3.14*r;
+  cout<<"perimeter is:"<<per<<endl;
+  return (per);
+  }
