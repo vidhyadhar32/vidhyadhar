@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int pos(float a);
-int main()
+void pos();
+void main()
 {
 clrscr();
-pos(3.9);
+pos();
 getch();
 }
-int pos(float a)
+void pos()
 {
- float per=4*a ;
- cout<<"perimeter is:"<<per<<endl;
- }
+float r=3.5;
+float area=4*r;
+cout<<"area is ="<<area<<endl;
+}
