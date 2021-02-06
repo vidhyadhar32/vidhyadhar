@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int aop(float b, float h);
-int main()
+void aop();
+void main()
 {
 clrscr();
-aop(3.9,4.2);
+aop();
 getch();
 }
-int aop(float b,float h)
+void aop()
 {
- float area=b*h ;
- cout<<"area is:"<<area<<endl;
- }
+float b=3.5,h=9.7;
+float area=b*h;
+cout<<"area is ="<<area<<endl;
+}
