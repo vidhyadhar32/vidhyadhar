@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int pop(float a,float b);
-int main()
+void pop();
+void main()
 {
 clrscr();
-pop(3.9,4.2);
+pop();
 getch();
 }
-int pop(float a,float b)
+void pop()
 {
- float per=2*(a+b) ;
- cout<<"perimeter is:"<<per<<endl;
- }
+float a=3.5,b=4.5;
+float per=2*(a+b);
+cout<<"perimeter is ="<<per<<endl;
+}
