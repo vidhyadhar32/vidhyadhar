@@ -1,19 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int add();
+int sum(int a,int b);
 int main()
 {
- clrscr();
- add();
- getch();
- }
-int add()
-{
-int a=25,b=23;
-int c;
-c=a+b;
-cout<<"Addition is"<<c;
-return(c);
-
+clrscr();
+sum(10,7);
+getch();
 }
+int sum(int a,int b)
+{
+ int z=a+b;
+ cout<<"sum is:"<<z<<endl;
+ }
