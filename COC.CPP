@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int coc(float r);
-int main()
+void coc();
+void main()
 {
 clrscr();
-coc(3.9);
+coc();
 getch();
 }
-int coc(float r)
+void coc()
 {
- float circum=3.14*2*r ;
- cout<<"circumference is:"<<circum<<endl;
- }
+float r=3.5;
+float circum=3.14*r*r;
+cout<<"circumference is ="<<circum<<endl;
+}
