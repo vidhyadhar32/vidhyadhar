@@ -1,23 +1,19 @@
-//Function overloading
-#include<iostream.h>
-#include<conio.h>
 #include<stdio.h>
-
-class addition
+#include<conio.h>
+#include<iostream.h>
+int add();
+int main()
 {
-public:
- int a,b,c;
- void  add()
-{
-
- a=5,b=4;
- c=a+b;
- cout<<"c="<<c<<endl;
- }};
- int main()
- {
  clrscr();
-   addition obj;
-   obj.add();
-   getch();
-   }
+ add();
+ getch();
+ }
+int add()
+{
+int a=25,b=23;
+int c;
+c=a+b;
+cout<<"Addition is"<<c;
+return(c);
+
+}
