@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-int aosp(float r);
+int aosp();
 int main()
 {
 clrscr();
-aosp(3.9);
+aosp();
 getch();
 }
-int aosp(float r)
+int aosp()
 {
- float area=4*3.14*r*r ;
- cout<<"area is:"<<area<<endl;
- }
+float r=3.5;
+float area=4*3.14*r*r;
+cout<<"area is ="<<area<<endl;
+}
