@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-void aor();
-void main()
+int aor();
+int main()
 {
 clrscr();
 aor();
 getch();
 }
-void aor()
+int aor()
 {
-float l=3.5,b=4.5;
+float l=3.5,b=2.5;
 float area=l*b;
 cout<<"area is ="<<area<<endl;
 }
