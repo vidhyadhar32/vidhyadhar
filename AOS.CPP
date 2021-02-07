@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-void aos();
-void main()
+int aos();
+int main()
 {
 clrscr();
 aos();
 getch();
 }
-void aos()
+int aos()
 {
 float r=3.5;
 float area=r*r;
