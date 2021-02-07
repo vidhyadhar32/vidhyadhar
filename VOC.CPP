@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-void voc();
-void main()
+int voc();
+int main()
 {
 clrscr();
 voc();
 getch();
 }
-void voc()
+int voc()
 {
 float r=3.5;
 float vol=r*r*r;
