@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
-void pop();
-void main()
+int pop();
+int main()
 {
 clrscr();
 pop();
 getch();
 }
-void pop()
+int pop()
 {
 float a=3.5,b=4.5;
 float per=2*(a+b);
